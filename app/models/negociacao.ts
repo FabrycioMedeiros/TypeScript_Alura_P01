@@ -1,19 +1,20 @@
 export class Negociacao {
+    //sintaxe utilizada pelo TS, evita ter que declarar propriedades, evita ter que receber os parametros e atribuir para as propriedades
+    constructor(
+        private _data: Date,
+        private _quantidade: number,
+        private _valor: number
+        ) {}
     // sintaxe utilizada em TS
-   private _data: Date;
-   private _quantidade: number;
-   private _valor: number;
+//    private _data: Date;
+//    private _quantidade: number;
+//    private _valor: number;
    
 //    Sintaxe utilizada em JS ES6
     // #data;
     // #quatidade;
     // #valor;
 
-    constructor(data: Date, quantidade: number, valor: number) {
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
-    }
 
     get data(): Date {
         return this._data;
