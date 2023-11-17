@@ -78,3 +78,12 @@ npm run start
 * O modificador readonly
 * Getters vs propriedades públicas em modo de leitura
 * Programação defensiva
+
+# Curso TypeScript Parte-02 Alura:
+
+## Módulo 01
+* Inspiração no React para criação de templates declarativos e dinâmicos
+* Manipulação declarativa do DOM através de template
+* Template dinâmico
+* Formatação de datas usando Intl
+
