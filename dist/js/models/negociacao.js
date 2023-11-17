@@ -1,7 +1,7 @@
 export class Negociacao {
     //sintaxe utilizada pelo TS, evita ter que declarar propriedades, evita ter que receber os parametros e atribuir para as propriedades
-    constructor(data, quantidade, valor) {
-        this.data = data;
+    constructor(_data, quantidade, valor) {
+        this._data = _data;
         this.quantidade = quantidade;
         this.valor = valor;
     }
@@ -24,5 +24,9 @@ export class Negociacao {
     // }
     get volume() {
         return this.quantidade * this.valor;
+    }
+    get data() {
+        const data = new Date(this._data.getTime());
+        return data;
     }
 }
