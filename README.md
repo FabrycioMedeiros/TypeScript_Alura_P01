@@ -82,12 +82,14 @@ npm run start
 # Curso TypeScript Parte-02 Alura:
 
 ## Módulo 01
+- Neste módulo, foram abordados assuntos referentes a:
 * Inspiração no React para criação de templates declarativos e dinâmicos
 * Manipulação declarativa do DOM através de template
 * Template dinâmico
 * Formatação de datas usando Intl
 
 ## Módulo 02
+- Neste módulo, foram abordados assuntos referentes a:
 * Herança com TypeScript
 * Classes com tipo genérico
 * Classes abstratas
