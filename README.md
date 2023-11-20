@@ -87,7 +87,7 @@ npm run start
 * Template dinâmico
 * Formatação de datas usando Intl
 
-## Módulo 01
+## Módulo 02
 * Herança com TypeScript
 * Classes com tipo genérico
 * Classes abstratas
