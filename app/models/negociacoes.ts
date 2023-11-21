@@ -5,11 +5,11 @@ export class Negociacoes {
     // mesma forma de escrita para Arrays
     //  private negociacoes: Array<Negociacao> = [];
 
-    adiciona(negociacao: Negociacao) {
+    public adiciona(negociacao: Negociacao) {
         this.negociacoes.push(negociacao);
     }
 // lista(): ReadonlyArray<Negociacao> outra forma de escrita
-    lista(): readonly Negociacao[] {
+    public lista(): readonly Negociacao[] {
         return this.negociacoes;
     }
 }
