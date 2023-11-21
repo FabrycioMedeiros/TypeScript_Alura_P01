@@ -95,4 +95,9 @@ npm run start
 * Classes abstratas
 * O modificador protected
 
-
+## Módulo 03
+- Neste módulo, foram abordados assuntos referentes a:
+* Visibilidade de métodos
+* Validando negociações em dias úteis
+* Vantagens do uso de enums
+* Cuidados com enums
