@@ -101,3 +101,9 @@ npm run start
 * Validando negociações em dias úteis
 * Vantagens do uso de enums
 * Cuidados com enums
+
+## Módulo 04
+- Neste módulo, foram abordados assuntos referentes a:
+* Revisão da lógica de conversão negociações
+* Método estáticos
+* Parâmetros opcionais
