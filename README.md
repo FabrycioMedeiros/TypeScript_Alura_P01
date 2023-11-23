@@ -107,3 +107,10 @@ npm run start
 * Revisão da lógica de conversão negociações
 * Método estáticos
 * Parâmetros opcionais
+
+## Módulo 05
+- Neste módulo, foram abordados assuntos referentes a:
+* Remoção de comentários do código compilado
+* Ativação do strictNullChecks
+* Como suprimir erros, quando fizer sentido, resultantes do strictNullChecks
+* Benefícios do strictNullChecks no controle do fluxo da sua aplicação
